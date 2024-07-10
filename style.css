@@ -758,10 +758,25 @@ body {
   .services h2 {
     margin-bottom: 3rem;
   }
- /* Adjust font size for smaller screens */
+ /* Adjustments for smaller screens */
 @media (max-width: 895px) {
+  .service-info {
+    text-align: center; /* Center-align content */
+  }
+
   .service-info h4 {
-    font-size: 1.2rem; /* Adjust the font size as needed */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 0.5rem; /* Add margin for spacing */
+  }
+
+  .service-box {
+    padding: 1rem; /* Ensure padding for spacing */
+    height: auto; /* Allow box to expand based on content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
 
