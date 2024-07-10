@@ -760,15 +760,6 @@ body {
   }
  /* Adjustments for smaller screens */
 @media (max-width: 895px) {
-  .service-info {
-    text-align: center; /* Center-align content */
-  }
-
-  .service-info h4 {
-    font-size: 1rem; /* Adjust font size */
-    margin-top: 1.5rem; /* Add margin for spacing */
-  }
-
   .service-box {
     padding: 1rem; /* Ensure padding for spacing */
     height: auto; /* Allow box to expand based on content */
@@ -777,23 +768,24 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    border: 1px solid #ccc; /* Optional: Add a border for visualization */
+  }
+
+  .service-info {
+    text-align: center; /* Center-align content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Occupy full height of the service-box */
+  }
+
+  .service-info h4 {
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 0.5rem; /* Add margin for spacing */
   }
 }
 
-
-  .services-container {
-    grid-template-columns: 1fr;
-  }
-
-  .service-box .service-info {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    max-height: 100px;
-    justify-content: left;
-    align-items: center;
-    padding: 1px 1px;
-  }
 
   .testimonials .wrapper {
     grid-template-columns: repeat(1, 1fr);
