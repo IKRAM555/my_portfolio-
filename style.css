@@ -488,24 +488,7 @@ body {
   align-items: center;
 }
 
-/* Responsive layout for mobile devices */
-@media (max-width: 1200px) {
-  .services-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
 
-@media (max-width: 992px) {
-  .services-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .services-container {
-    grid-template-columns: 1fr;
-  }
-}
 
 .service-box {
   background-color: white;
