@@ -724,7 +724,7 @@ body {
   }
 
   .services-container {
-    padding-bottom: 7rem;
+    padding-bottom: 1rem;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 5rem;
   }
