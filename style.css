@@ -759,6 +759,7 @@ body {
     margin-bottom: 3rem;
   }
  /* Adjustments for smaller screens */
+/* Adjustments for smaller screens */
 @media (max-width: 895px) {
   .service-box {
     padding: 1rem; /* Ensure padding for spacing */
@@ -766,7 +767,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* Align content to the top */
     text-align: center;
     border: 1px solid #ccc; /* Optional: Add a border for visualization */
   }
@@ -776,7 +777,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* Align content to the top */
     height: 100%; /* Occupy full height of the service-box */
   }
 
