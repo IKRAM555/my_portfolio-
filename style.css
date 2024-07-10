@@ -489,7 +489,6 @@ body {
 }
 
 
-
 .service-box {
   background-color: white;
   color: #2E2E4E;
@@ -758,7 +757,9 @@ body {
     left: 0;
   }
 
-  
+  .services {
+    padding-bottom: 7rem;
+  }
 
   .testimonials .wrapper {
     grid-template-columns: repeat(1, 1fr);
@@ -837,7 +838,9 @@ body {
     width: 56vw;
   }
 
-  
+  .services h2 {
+    margin-bottom: 3rem;
+  }
 
   .services-container {
     grid-template-columns: repeat(1, 1fr);
