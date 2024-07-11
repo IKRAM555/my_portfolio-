@@ -916,6 +916,7 @@ body.light-mode .contact {
   display: block;
 }
 /* Adjustments for smaller screens */
+/* Adjustments for smaller screens */
 @media (max-width: 895px) {
   .service-box {
     padding: 1rem; /* Ensure padding for spacing */
@@ -923,7 +924,7 @@ body.light-mode .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Align content to the top */
+    justify-content: center;
     text-align: center;
     border: 1px solid #ccc; /* Optional: Add a border for visualization */
   }
@@ -933,7 +934,7 @@ body.light-mode .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Align content to the top */
+    justify-content: center;
     height: 100%; /* Occupy full height of the service-box */
   }
 
@@ -942,6 +943,3 @@ body.light-mode .contact {
     margin-top: 0.5rem; /* Add margin for spacing */
   }
 }
-
-
-
