@@ -467,6 +467,7 @@ body {
   color: white;
   font-family: 'Arial', sans-serif;
 }
+
 .services {
   padding: 50px;
   text-align: center;
@@ -486,25 +487,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   align-items: center;
-}
-
-/* Responsive layout for mobile devices */
-@media (max-width: 1200px) {
-  .services-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 992px) {
-  .services-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .services-container {
-    grid-template-columns: 1fr;
-  }
 }
 
 .service-box {
@@ -532,6 +514,7 @@ body {
   font-size: 2.5rem;
   margin-top: 10px;
 }
+
 
 .service-info i {
   font-size: 10em;
@@ -562,7 +545,6 @@ body {
   width: 50px;
   height: 50px;
 }
-
 
 .testimonials {
   background: var(--second-bg-color);
