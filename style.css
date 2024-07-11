@@ -767,16 +767,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Align content to the top */
+    justify-content: center;
     text-align: center;
-    border: 1px solid #ccc; /* Optional: Add a border for visualization */
-    margin-bottom: 1rem; /* Add margin at the bottom for spacing between boxes */
+  }
+}
+
+
+  .services-container {
+    grid-template-columns: 1fr;
   }
 
-  .service-info {
-    text-align: center; /* Center-align content */
+  .service-box .service-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 100px;
+    justify-content: left;
+    align-items: center;
+    padding: 1px 1px;
   }
-
   .service-info h4 {
     font-size: 1.5rem; /* Adjust font size */
     margin-top: 0.5rem; /* Add margin for spacing */
