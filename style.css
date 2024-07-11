@@ -926,11 +926,15 @@ body.light-mode .contact {
     justify-content: flex-start; /* Align content to the top */
     text-align: center;
     border: 1px solid #ccc; /* Optional: Add a border for visualization */
-    margin-bottom: 1rem; /* Add margin at the bottom for spacing between boxes */
   }
 
   .service-info {
     text-align: center; /* Center-align content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top */
+    height: 100%; /* Occupy full height of the service-box */
   }
 
   .service-info h4 {
@@ -938,4 +942,5 @@ body.light-mode .contact {
     margin-top: 0.5rem; /* Add margin for spacing */
   }
 }
+
 
