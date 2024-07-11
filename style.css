@@ -838,23 +838,8 @@ body {
     width: 56vw;
   }
 
-  .services h2 {
-    margin-bottom: 3rem;
-  }
+ 
 
-  .services-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .service-box .service-info {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    max-height: 100px;
-    justify-content: left;
-    align-items: center;
-    padding: 1px 1px;
-  }
-}
 
 .skills-experience {
   padding: 50px;
