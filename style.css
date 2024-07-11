@@ -488,6 +488,24 @@ body {
   align-items: center;
 }
 
+/* Responsive layout for mobile devices */
+@media (max-width: 1200px) {
+  .services-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+}
 
 .service-box {
   background-color: white;
@@ -723,7 +741,11 @@ body {
     font-size: 55%;
   }
 
-  
+  .services-container {
+    padding-bottom: 7rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 5rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -752,47 +774,9 @@ body {
   .timeline-dot {
     left: 0;
   }
+
   .services {
     padding-bottom: 7rem;
-  }
-  .services h2 {
-    margin-bottom: 3rem;
-  }
- /* Adjustments for smaller screens */
-@media (max-width: 895px) {
-  .service-info {
-    text-align: center; /* Center-align content */
-  }
-
-  .service-info h4 {
-    font-size: 1rem; /* Adjust font size */
-    margin-top: 0.5rem; /* Add margin for spacing */
-  }
-
-  .service-box {
-    padding: 1rem; /* Ensure padding for spacing */
-    height: auto; /* Allow box to expand based on content */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-}
-
-
-  .services-container {
-    grid-template-columns: 1fr;
-  }
-
-  .service-box .service-info {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    max-height: 100px;
-    justify-content: left;
-    align-items: center;
-    padding: 1px 1px;
   }
 
   .testimonials .wrapper {
@@ -872,8 +856,22 @@ body {
     width: 56vw;
   }
 
-  
+  .services h2 {
+    margin-bottom: 3rem;
+  }
 
+  .services-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .service-box .service-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 100px;
+    justify-content: left;
+    align-items: center;
+    padding: 1px 1px;
+  }
 }
 
 .skills-experience {
