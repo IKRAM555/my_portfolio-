@@ -759,9 +759,17 @@ body {
     margin-bottom: 3rem;
   }
  /* Adjustments for smaller screens */
-/* Adjustments for smaller screens */
 @media (max-width: 895px) {
- .service-box {
+  .service-info {
+    text-align: center; /* Center-align content */
+  }
+
+  .service-info h4 {
+    font-size: 1rem; /* Adjust font size */
+    margin-top: 0.5rem; /* Add margin for spacing */
+  }
+
+  .service-box {
     padding: 1rem; /* Ensure padding for spacing */
     height: auto; /* Allow box to expand based on content */
     display: flex;
@@ -786,12 +794,6 @@ body {
     align-items: center;
     padding: 1px 1px;
   }
-  .service-info h4 {
-    font-size: 1.5rem; /* Adjust font size */
-    margin-top: 0.5rem; /* Add margin for spacing */
-  }
-}
-
 
   .testimonials .wrapper {
     grid-template-columns: repeat(1, 1fr);
